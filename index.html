@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.72.0">
+  <title>Album example · Bootstrap</title>
+
+  <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/album/">
+
+
+
+  <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+  <style>
+    .bd-placeholder-img {
+    
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white" >Portfolio</h4>
+            <p class="text-muted" id="about">My name is Jacob Dillard, and I am a 22 year old Hoosier! I am an aspiring Software Developer and hope to one day be a Senior Backend Developer at a video game company. I have learned HTML, CSS, C++, and C#. Along with that, I also have knowledge in SQL and some Azure knowledge. I am currently learning Bootstrap and React!</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact Me!</h4>
+            <ul class="list-unstyled" >
+              <li><a href="https://www.linkedin.com/in/jacob-dillard-b4246716a/" class="text-white">Follow on LinkedIn</a></li>
+              <li><a href="https://github.com/JED-SoftCoder" class="text-white">Follow on GitHub</a></li>
+              <li><a href="jacobedillard@gmail.com" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
+            viewBox="0 0 24 24">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+            <circle cx="12" cy="13" r="4" /></svg>
+          <strong>Portfolio</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="font-weight-light">Jacob Dillard</h1>
+          <img src="./img/Image-1.jpg">
+          <p class="lead text-muted">Welcome to my portfolio! Clicking the menu in the top left will lead you to more about me! Feel free to scroll down and look at some of the projects I have worked on!</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light" id="album">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./img/ConsoleGame.png" >
+              <div class="card-body">
+                <p class="card-text">The above project was a group project in which we worked in only a pair. We were assigned to create a console game from a list of options. My partner and I decided to create a text-based adventure game with puzzles, and a boss fight that includes a dragon!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/JED-SoftCoder/ConsoleGame">View Code</a>
+                  </div>
+                  <small class="text-muted">Gold Badge</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="./img/Storefront.png" >
+              <div class="card-body">
+                <p class="card-text">The above project was an independent project in which we were assigned to make a store front website for anything of our choosing. I decided to go with one of my favorite Table-Top Roleplaying Games known as Pathfinder!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/JED-SoftCoder/StoreFront">View Code</a>
+                  </div>
+                  <small class="text-muted">Gold Badge</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="./img/Gamefinder.png">
+              <div class="card-body">
+                <p class="card-text">The above project was a group project in which we had to make an API based on a choice from many different options. Our group went with making an API for creating, storing, and managing video games, video game systems, and video game genres!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="ttps://github.com/JED-SoftCoder/GameFinderAgile">View Code</a>
+                  </div>
+                  <small class="text-muted">Blue Badge</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="./img/72HourAssignment.png">
+              <div class="card-body">
+                <p class="card-text">The above project was another trio group project in which we were assigned to create an API for a social media platform that would track, create, and manage posts, comments, and replies!</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/JED-SoftCoder/72HourAssignment">View Code</a>
+                  </div>
+                  <small class="text-muted">Blue Badge</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+                <img src="./img/GoldBadgeFinal.png">
+              <div class="card-body">
+                <p class="card-text">The above project was a group project in which we were assigned to create an API for anything of our choice! One of our group members came up with the idea to create an API for supernatural/paranormal creatures!/p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/JED-SoftCoder/GoldBadgeFinal">View Code</a>
+                  </div>
+                  <small class="text-muted">Blue Badge</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-right mb-1">
+        <a href="#">Back to top</a>
+      </p>
+      <span>&copy;2021 Jacob Dillard</span>
+      <ul id="bottom">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#album">Projects</a></li>
+        <li><a href="#contact">Contact me</a></li>
+    </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>

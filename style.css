@@ -1,0 +1,48 @@
+main{
+    background-color: mediumseagreen;
+}
+
+.text-muted{
+    color: mediumseagreen !important;
+}
+
+.lead.text-muted{
+    color: #052a13 !important;
+}
+
+h1{
+    color: #052a13 !important;
+}
+
+h4.text-white{
+    color: mediumseagreen !important;
+}
+
+.album{
+background-color: #052a13 !important;
+}
+
+.collapse.bg-dark{
+    background-color: #052a13 !important;
+}
+
+strong{
+    color: mediumseagreen !important;
+}
+
+svg{
+    color: mediumseagreen !important;
+}
+
+.card.shadow-sm{
+    background-color: mediumseagreen;
+}
+
+.navbar.navbar-dark.bg-dark.shadow-sm{
+    background-color: #052a13 !important;
+}
+
+footer.text-muted.py-5{
+    background-color: #052a13 !important;
+    border: 1px solid black;
+}
